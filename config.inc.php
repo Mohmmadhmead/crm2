@@ -48,10 +48,10 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 */
 
 $dbconfig['db_server'] = 'localhost';
-$dbconfig['db_port'] = ':8889';
-$dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = 'root';
-$dbconfig['db_name'] = 'repzocrm';
+$dbconfig['db_port'] = ':3306';
+$dbconfig['db_username'] = 'id2523933_repzo';
+$dbconfig['db_password'] = '1234567890';
+$dbconfig['db_name'] = 'id2523933_repzo';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
@@ -82,7 +82,7 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost:8888/vtigercrm/';
+$site_URL = 'https://github.com/Mohmmadhmead/crm2';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
